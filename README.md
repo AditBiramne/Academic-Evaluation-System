@@ -61,7 +61,7 @@ cd academic-evaluation-system</pre>
 2. Create and Activate a Virtual Environment
 
 <pre>python -m venv venv
-source venv/bin/activate</pre>        # On Windows: venv\Scripts\activate
+source venv/bin/activate        # On Windows: venv\Scripts\activate</pre>
 3. Configure the Database
 Create your database (MySQL / SQLite)
 
