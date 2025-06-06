@@ -15,7 +15,7 @@ This is a Flask-based web application designed to evaluate and manage student ac
 ├── templates/
 │ ├── admin_students.html # Admin dashboard to manage student data
 │ ├── form.html # Form for student mark submission
-│ └── login.html # Login page
+│ └── login.html # Login page'''
 🚀 Features
 Student login and data entry form
 
