@@ -4,21 +4,18 @@
 This is a Flask-based web application designed to evaluate and manage student academic performance. It provides separate interfaces for students and administrators to input, view, and manage academic data.
 
 📁 Project Structure
-perl
-Copy
-Edit
 academic-evaluation-system/
 │
-├── app.py                         # Main Flask application: routes, logic, and DB interaction
+├── app.py # Main Flask application: routes, logic, and DB interaction
 │
 ├── static/
-│   └── css/
-│       └── styles.css             # Custom CSS styles
+│ └── css/
+│ └── styles.css # Custom CSS styles
 │
 ├── templates/
-│   ├── admin_students.html        # Admin dashboard to manage student data
-│   ├── form.html                  # Form for student mark submission
-│   └── login.html                 # Login page
+│ ├── admin_students.html # Admin dashboard to manage student data
+│ ├── form.html # Form for student mark submission
+│ └── login.html # Login page
 🚀 Features
 Student login and data entry form
 
