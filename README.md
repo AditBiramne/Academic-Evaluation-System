@@ -1,59 +1,91 @@
 # Academic-Evaluation-System
 
 🎓 Academic Evaluation System
-This is a Flask-based web application designed to evaluate and manage student academic performance. The system provides separate interfaces for students and administrators to input and review academic data.
+This is a Flask-based web application designed to evaluate and manage student academic performance. It provides separate interfaces for students and administrators to input, view, and manage academic data.
 
 📁 Project Structure
+perl
+Copy
+Edit
 academic-evaluation-system/
 │
-├── app.py                         # Main Flask application: handles routes, form logic, and DB interaction
+├── app.py                         # Main Flask application: routes, logic, and DB interaction
 │
 ├── static/
 │   └── css/
-│       └── styles.css             # Custom styles for the app
+│       └── styles.css             # Custom CSS styles
 │
 ├── templates/
-│   ├── admin_students.html        # Admin dashboard to view/manage students
+│   ├── admin_students.html        # Admin dashboard to manage student data
 │   ├── form.html                  # Form for student mark submission
-│   └── login.html                 # Login page for authentication
+│   └── login.html                 # Login page
 🚀 Features
 Student login and data entry form
-Admin view to manage and evaluate student performance
-Evaluation based on various academic inputs (UT marks, semester, etc.)
+
+Admin panel to view and manage student performance
+
+Evaluation based on academic inputs (UT marks, semester grades, etc.)
+
 Clean and responsive UI using custom CSS
+
 🧠 How it Works
-app.py is the heart of this project. It:
+app.py is the core of the application. It:
+
 Initializes the Flask app
+
 Defines routes for:
-/login: User login page
-/form: Student mark entry form
-/admin: Admin panel to view student data
+
+/login – User login
+
+/form – Student mark entry
+
+/admin – Admin dashboard
+
 Handles form submissions and redirects
-Connects to the database to fetch and store student data
-Renders HTML templates using Flask's render_template()
+
+Connects to the database to store and fetch data
+
+Renders HTML templates using render_template()
+
 🛠️ Tech Stack
 Backend: Flask (Python)
-Frontend: HTML, CSS (custom styles)
-Templating: Jinja2
-Database: (Add MySQL/SQLite info here if applicable)
-🔧 Setup Instructions
-Clone the repository
 
+Frontend: HTML, CSS
+
+Templating: Jinja2
+
+Database: [Add MySQL / SQLite details here]
+
+🔧 Setup Instructions
+1. Clone the Repository
+bash
+Copy
+Edit
 git clone https://github.com/yourusername/academic-evaluation-system.git
 cd academic-evaluation-system
-Create and activate a virtual environment
-
+2. Create and Activate a Virtual Environment
+bash
+Copy
+Edit
 python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-Configure the database
+source venv/bin/activate        # On Windows: venv\Scripts\activate
+3. Configure the Database
+Create your database (MySQL / SQLite)
 
-Create your database and update credentials in app.py (or a separate config.py if used).
-Initialize tables (manually or via script if provided).
-Run the application
+Update credentials in app.py (or config.py if separated)
 
+Initialize tables manually or via a provided script
+
+4. Run the Application
+bash
+Copy
+Edit
 python app.py
 📈 Future Enhancements
-Add student performance prediction using ML
-Export results as PDF/Excel
-Role-based access (Admin, Teacher, Student)
-Integration with Power BI dashboards
+🔍 Add student performance prediction using ML
+
+📄 Export results as PDF / Excel
+
+🛡️ Role-based access control (Admin, Teacher, Student)
+
+📊 Integration with Power BI dashboards
