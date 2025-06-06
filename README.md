@@ -1,9 +1,8 @@
 # Academic-Evaluation-System
 
-🎓 Academic Evaluation System
 This is a Flask-based web application designed to evaluate and manage student academic performance. It provides separate interfaces for students and administrators to input, view, and manage academic data.
 
-📁 Project Structure
+# 📁 Project Structure
 <pre> academic-evaluation-system/
 │
 ├── app.py # Main Flask application: routes, logic, and DB interaction
@@ -16,7 +15,8 @@ This is a Flask-based web application designed to evaluate and manage student ac
 │ ├── admin_students.html # Admin dashboard to manage student data
 │ ├── form.html # Form for student mark submission
 │ └── login.html # Login page</pre>
-🚀 Features
+
+# 🚀 Features
 Student login and data entry form
 
 Admin panel to view and manage student performance
@@ -25,7 +25,7 @@ Evaluation based on academic inputs (UT marks, semester grades, etc.)
 
 Clean and responsive UI using custom CSS
 
-🧠 How it Works
+# 🧠 How it Works
 app.py is the core of the application. It:
 
 Initializes the Flask app
@@ -44,7 +44,7 @@ Connects to the database to store and fetch data
 
 Renders HTML templates using render_template()
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Backend: Flask (Python)
 
 Frontend: HTML, CSS
@@ -53,7 +53,7 @@ Templating: Jinja2
 
 Database: [Add MySQL / SQLite details here]
 
-🔧 Setup Instructions
+# 🔧 Setup Instructions
 1. Clone the Repository
 
 <pre>git clone https://github.com/yourusername/academic-evaluation-system.git
