@@ -63,11 +63,11 @@ cd academic-evaluation-system</pre>
 <pre>python -m venv venv
 source venv/bin/activate        # On Windows: venv\Scripts\activate</pre>
 3. Configure the Database
-Create your database (MySQL / SQLite)
+  Create your database (MySQL / SQLite)
 
-Update credentials in app.py (or config.py if separated)
+  Update credentials in app.py (or config.py if separated)
 
-Initialize tables manually or via a provided script
+  Initialize tables manually or via a provided script
 
 4. Run the Application
 
