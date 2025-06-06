@@ -17,41 +17,41 @@ This is a Flask-based web application designed to evaluate and manage student ac
 │ └── login.html # Login page</pre>
 
 # 🚀 Features
-Student login and data entry form
+*Student login and data entry form
 
-Admin panel to view and manage student performance
+*Admin panel to view and manage student performance
 
-Evaluation based on academic inputs (UT marks, semester grades, etc.)
+*Evaluation based on academic inputs (UT marks, semester grades, etc.)
 
-Clean and responsive UI using custom CSS
+*Clean and responsive UI using custom CSS
 
 # 🧠 How it Works
-app.py is the core of the application. It:
+*app.py is the core of the application. It:
 
-Initializes the Flask app
+ -Initializes the Flask app
 
-Defines routes for:
+ -Defines routes for:
 
-/login – User login
+   -login – User login
 
-/form – Student mark entry
+   -form – Student mark entry
 
-/admin – Admin dashboard
+  -admin – Admin dashboard
 
-Handles form submissions and redirects
+*Handles form submissions and redirects
 
-Connects to the database to store and fetch data
+*Connects to the database to store and fetch data
 
-Renders HTML templates using render_template()
+*Renders HTML templates using render_template()
 
 # 🛠️ Tech Stack
-Backend: Flask (Python)
+*Backend: Flask (Python)
 
-Frontend: HTML, CSS
+*Frontend: HTML, CSS
 
-Templating: Jinja2
+*Templating: Jinja2
 
-Database: [Add MySQL / SQLite details here]
+*Database: [Add MySQL / SQLite details here]
 
 # 🔧 Setup Instructions
 1. Clone the Repository
