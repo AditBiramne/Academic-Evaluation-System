@@ -4,7 +4,7 @@
 This is a Flask-based web application designed to evaluate and manage student academic performance. It provides separate interfaces for students and administrators to input, view, and manage academic data.
 
 📁 Project Structure
-<pre> ```academic-evaluation-system/
+<pre> academic-evaluation-system/
 │
 ├── app.py # Main Flask application: routes, logic, and DB interaction
 │
@@ -15,7 +15,7 @@ This is a Flask-based web application designed to evaluate and manage student ac
 ├── templates/
 │ ├── admin_students.html # Admin dashboard to manage student data
 │ ├── form.html # Form for student mark submission
-│ └── login.html # Login page'''</pre>
+│ └── login.html # Login page</pre>
 🚀 Features
 Student login and data entry form
 
@@ -55,17 +55,13 @@ Database: [Add MySQL / SQLite details here]
 
 🔧 Setup Instructions
 1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/academic-evaluation-system.git
-cd academic-evaluation-system
+
+<pre>git clone https://github.com/yourusername/academic-evaluation-system.git
+cd academic-evaluation-system</pre>
 2. Create and Activate a Virtual Environment
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate        # On Windows: venv\Scripts\activate
+
+<pre>python -m venv venv
+source venv/bin/activate</pre>        # On Windows: venv\Scripts\activate
 3. Configure the Database
 Create your database (MySQL / SQLite)
 
@@ -74,10 +70,8 @@ Update credentials in app.py (or config.py if separated)
 Initialize tables manually or via a provided script
 
 4. Run the Application
-bash
-Copy
-Edit
-python app.py
+
+<pre>python app.py</pre>
 📈 Future Enhancements
 🔍 Add student performance prediction using ML
 
