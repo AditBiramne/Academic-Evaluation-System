@@ -2,81 +2,89 @@
 
 This is a Flask-based web application designed to evaluate and manage student academic performance. It provides separate interfaces for students and administrators to input, view, and manage academic data.
 
-# 📁 Project Structure
-<pre> academic-evaluation-system/
+---
+
+## 📁 Project Structure
+
+<pre>
+academic-evaluation-system/
 │
-├── app.py # Main Flask application: routes, logic, and DB interaction
+├── app.py                         # Main Flask application: routes, logic, and DB interaction
 │
 ├── static/
-│ └── css/
-│ └── styles.css # Custom CSS styles
+│   └── css/
+│       └── styles.css             # Custom CSS styles
 │
 ├── templates/
-│ ├── admin_students.html # Admin dashboard to manage student data
-│ ├── form.html # Form for student mark submission
-│ └── login.html # Login page</pre>
+│   ├── admin_students.html        # Admin dashboard to manage student data
+│   ├── form.html                  # Form for student mark submission
+│   └── login.html                 # Login page
+</pre>
 
-# 🚀 Features
-*Student login and data entry form
+---
 
-*Admin panel to view and manage student performance
+## 🚀 Features
 
-*Evaluation based on academic inputs (UT marks, semester grades, etc.)
+* Student login and data entry form  
+* Admin panel to view and manage student performance  
+* Evaluation based on academic inputs (UT marks, semester grades, etc.)  
+* Clean and responsive UI using custom CSS  
 
-*Clean and responsive UI using custom CSS
+---
 
-# 🧠 How it Works
-*app.py is the core of the application. It:
+## 🧠 How it Works
 
- -Initializes the Flask app
+* `app.py` is the core of the application. It:  
+  - Initializes the Flask app  
+  - Defines routes for:  
+    - `/login` – User login  
+    - `/form` – Student mark entry  
+    - `/admin` – Admin dashboard  
+* Handles form submissions and redirects  
+* Connects to the database to store and fetch data  
+* Renders HTML templates using Flask’s `render_template()`  
 
- -Defines routes for:
+---
 
-   -login – User login
+## 🛠️ Tech Stack
 
-   -form – Student mark entry
+* Backend: Flask (Python)  
+* Frontend: HTML, CSS  
+* Templating: Jinja2  
+* Database: [Add MySQL / SQLite details here]  
 
-  -admin – Admin dashboard
+---
 
-*Handles form submissions and redirects
+## 🔧 Setup Instructions
 
-*Connects to the database to store and fetch data
+### Clone the Repository
 
-*Renders HTML templates using render_template()
+<pre><code>git clone https://github.com/yourusername/academic-evaluation-system.git
+cd academic-evaluation-system
+</code></pre>
 
-# 🛠️ Tech Stack
-*Backend: Flask (Python)
+### Create and Activate a Virtual Environment
 
-*Frontend: HTML, CSS
+<pre><code>python -m venv venv
+source venv/bin/activate        # On Windows: venv\Scripts\activate
+</code></pre>
 
-*Templating: Jinja2
+### Configure the Database
 
-*Database: [Add MySQL / SQLite details here]
+* Create your database (MySQL / SQLite)  
+* Update credentials in `app.py` (or `config.py` if separated)  
+* Initialize tables manually or via a provided script  
 
-# 🔧 Setup Instructions
-1. Clone the Repository
+### Run the Application
 
-<pre>git clone https://github.com/yourusername/academic-evaluation-system.git
-cd academic-evaluation-system</pre>
-2. Create and Activate a Virtual Environment
+<pre><code>python app.py
+</code></pre>
 
-<pre>python -m venv venv
-source venv/bin/activate        # On Windows: venv\Scripts\activate</pre>
-3. Configure the Database
-  Create your database (MySQL / SQLite)
+---
 
-  Update credentials in app.py (or config.py if separated)
+## 📈 Future Enhancements
 
-  Initialize tables manually or via a provided script
-
-4. Run the Application
-
-<pre>python app.py</pre>
-📈 Future Enhancements
-🔍 Add student performance prediction using ML
-
-📄 Export results as PDF / Excel
-
-🛡️ Role-based access control (Admin, Teacher, Student)
-
-📊 Integration with Power BI dashboards
+* Add student performance prediction using ML  
+* Export results as PDF / Excel  
+* Role-based access control (Admin, Teacher, Student)  
+* Integration with Power BI dashboards  
